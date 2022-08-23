@@ -1,16 +1,20 @@
+import { GlobalStyle } from 'components/GlobaleStyle';
+import Feedback from './Feedback';
+import styled from 'styled-components';
+
+const Box = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+`;
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Box>
+      <GlobalStyle />
+      <Feedback />
+    </Box>
   );
 };
