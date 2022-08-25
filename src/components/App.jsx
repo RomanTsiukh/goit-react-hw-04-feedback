@@ -1,5 +1,5 @@
 import { GlobalStyle } from 'components/GlobaleStyle';
-import Feedback from './Feedback';
+import Feedback from './Feedback/Feedback';
 import styled from 'styled-components';
 
 const Box = styled.div`
